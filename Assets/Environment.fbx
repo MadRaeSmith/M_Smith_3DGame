@@ -1,0 +1,4451 @@
+; FBX 7.7.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1004
+	FBXVersion: 7700
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2024
+		Month: 4
+		Day: 7
+		Hour: 21
+		Minute: 4
+		Second: 56
+		Millisecond: 779
+	}
+	Creator: "FBX SDK/FBX Plugins version 2020.3.2"
+	OtherFlags:  {
+		TCDefinition: 127
+	}
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: "Created by FBX Exporter from Unity Technologies"
+			Subject: ""
+			Author: "Unity Technologies"
+			Keywords: "Nodes Meshes Materials Textures Cameras Lights Skins Animation"
+			Revision: "1.0"
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\madis\M_Smith_3DGame\Assets\686llipg_Environment.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\madis\M_Smith_3DGame\Assets\686llipg_Environment.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", ""
+			P: "Original|ApplicationName", "KString", "", "", "Unity FBX Exporter"
+			P: "Original|ApplicationVersion", "KString", "", "", "5.0.0"
+			P: "Original|DateTime_GMT", "DateTime", "", "", ""
+			P: "Original|FileName", "KString", "", "", ""
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", ""
+			P: "LastSaved|ApplicationName", "KString", "", "", "Unity FBX Exporter"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "5.0.0"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", ""
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 2597320264576, "Scene", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 78
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 38
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 37
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 2
+		PropertyTemplate: "FbxSurfaceLambert" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Lambert"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Geometry: 2589000996384, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,0,5452.6237487793,-342.756271362305,0,5452.6237487793,-0,1396.37203216553,5452.6237487793,-342.756271362305,1396.37203216553,5452.6237487793,-342.756271362305,0,3719.27108764648,-342.756271362305,1396.37203216553,3719.27108764648,-0,0,3719.27108764648,-0,1396.37203216553,3719.27108764648
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,-3.42756271362305,0,0,13.9637203216553,-3.42756271362305,13.9637203216553,54.526237487793,0,37.1927108764648,0,54.526237487793,13.9637203216553,37.1927108764648,13.9637203216553,3.42756271362305,0,0,0,3.42756271362305,13.9637203216553,0,13.9637203216553,-37.1927108764648,0,-54.526237487793,0,-37.1927108764648,13.9637203216553,-54.526237487793,13.9637203216553,0,54.526237487793,3.42756271362305,54.526237487793,0,37.1927108764648,3.42756271362305,37.1927108764648,0,37.1927108764648,-3.42756271362305,37.1927108764648,0,54.526237487793,-3.42756271362305,54.526237487793
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2596913508544, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,0,5131.4094543457,-342.756271362305,0,5131.4094543457,-0,1396.37203216553,5131.4094543457,-342.756271362305,1396.37203216553,5131.4094543457,-342.756271362305,0,3350.77438354492,-342.756271362305,1396.37203216553,3350.77438354492,-0,0,3350.77438354492,-0,1396.37203216553,3350.77438354492
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,-3.42756271362305,0,0,13.9637203216553,-3.42756271362305,13.9637203216553,51.314094543457,0,33.5077438354492,0,51.314094543457,13.9637203216553,33.5077438354492,13.9637203216553,3.42756271362305,0,0,0,3.42756271362305,13.9637203216553,0,13.9637203216553,-33.5077438354492,0,-51.314094543457,0,-33.5077438354492,13.9637203216553,-51.314094543457,13.9637203216553,0,51.314094543457,3.42756271362305,51.314094543457,0,33.5077438354492,3.42756271362305,33.5077438354492,0,33.5077438354492,-3.42756271362305,33.5077438354492,0,51.314094543457,-3.42756271362305,51.314094543457
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2597055987440, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,0,285.311508178711,-3258.93478393555,0,285.311508178711,-0,1514.29357528687,285.311508178711,-3258.93478393555,1514.29357528687,285.311508178711,-3258.93478393555,0,0.00019073486328125,-3258.93478393555,1514.29357528687,0.00019073486328125,-0,0,9.5367431640625e-05,-0,1514.29357528687,9.5367431640625e-05
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-2.92633739462644e-08,0,-1,-2.92633739462644e-08,0,-1,-2.92633739462644e-08,0,-1,-2.92633739462644e-08,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,2.92633739462644e-08,-1,0,2.92633739462644e-08,-1,0,2.92633739462644e-08,-1,0,2.92633739462644e-08,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,-32.5893478393555,0,0,15.1429357528687,-32.5893478393555,15.1429357528687,2.85311508178711,0,1.9073486328125e-06,0,2.85311508178711,15.1429357528687,1.9073486328125e-06,15.1429357528687,32.5893478393555,0,2.79077281439442e-14,0,32.5893478393555,15.1429357528687,2.79077281439442e-14,15.1429357528687,-9.5367431640625e-07,0,-2.85311508178711,0,-9.5367431640625e-07,15.1429357528687,-2.85311508178711,15.1429357528687,0,2.85311508178711,32.5893478393555,2.85311508178711,0,9.5367431640625e-07,32.5893478393555,1.9073486328125e-06,0,9.5367431640625e-07,-32.5893478393555,1.9073486328125e-06,0,2.85311508178711,-32.5893478393555,2.85311508178711
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2597055986544, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,0,285.311508178711,-3662.08953857422,0,285.311508178711,-0,1514.29357528687,285.311508178711,-3662.08953857422,1514.29357528687,285.311508178711,-3662.08953857422,0,0.00019073486328125,-3662.08953857422,1514.29357528687,0.00019073486328125,-0,0,9.5367431640625e-05,-0,1514.29357528687,9.5367431640625e-05
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-2.60418087094649e-08,0,-1,-2.60418087094649e-08,0,-1,-2.60418087094649e-08,0,-1,-2.60418087094649e-08,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,2.60418087094649e-08,-1,0,2.60418087094649e-08,-1,0,2.60418087094649e-08,-1,0,2.60418087094649e-08,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,-36.6208953857422,0,0,15.1429357528687,-36.6208953857422,15.1429357528687,2.85311508178711,0,1.9073486328125e-06,0,2.85311508178711,15.1429357528687,1.9073486328125e-06,15.1429357528687,36.6208953857422,0,2.48354041189813e-14,0,36.6208953857422,15.1429357528687,2.48354041189813e-14,15.1429357528687,-9.5367431640625e-07,0,-2.85311508178711,0,-9.5367431640625e-07,15.1429357528687,-2.85311508178711,15.1429357528687,0,2.85311508178711,36.6208953857422,2.85311508178711,0,9.5367431640625e-07,36.6208953857422,1.9073486328125e-06,0,9.5367431640625e-07,-36.6208953857422,1.9073486328125e-06,0,2.85311508178711,-36.6208953857422,2.85311508178711
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2597055985648, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,0,921.860694885254,-421.107864379883,0,921.860694885254,-0,342.863965034485,921.860694885254,-421.107864379883,342.863965034485,921.860694885254,-421.107864379883,0,0,-421.107864379883,342.863965034485,0,-0,0,0,-0,342.863965034485,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,-4.21107864379883,0,0,3.42863965034485,-4.21107864379883,3.42863965034485,9.21860694885254,0,0,0,9.21860694885254,3.42863965034485,0,3.42863965034485,4.21107864379883,0,0,0,4.21107864379883,3.42863965034485,0,3.42863965034485,0,0,-9.21860694885254,0,0,3.42863965034485,-9.21860694885254,3.42863965034485,0,9.21860694885254,4.21107864379883,9.21860694885254,0,0,4.21107864379883,0,0,0,-4.21107864379883,0,0,9.21860694885254,-4.21107864379883,9.21860694885254
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2597055986992, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,9.5367431640625e-05,633.037090301514,-918.16577911377,9.5367431640625e-05,633.037090301514,-0,126.089310646057,633.037090301514,-918.16577911377,126.089310646057,633.037090301514,-918.16577911377,9.5367431640625e-05,0,-918.16577911377,126.089310646057,0,-0,9.5367431640625e-05,0,-0,126.089310646057,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,9.5367431640625e-07,-9.1816577911377,9.5367431640625e-07,0,1.26089310646057,-9.1816577911377,1.26089310646057,6.33037090301514,9.5367431640625e-07,0,9.5367431640625e-07,6.33037090301514,1.26089310646057,0,1.26089310646057,9.1816577911377,9.5367431640625e-07,0,9.5367431640625e-07,9.1816577911377,1.26089310646057,0,1.26089310646057,0,9.5367431640625e-07,-6.33037090301514,9.5367431640625e-07,0,1.26089310646057,-6.33037090301514,1.26089310646057,0,6.33037090301514,9.1816577911377,6.33037090301514,0,0,9.1816577911377,0,0,0,-9.1816577911377,0,0,6.33037090301514,-9.1816577911377,6.33037090301514
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2597055984752, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -4.76837158203125e-05,0,1496.9970703125,-357.900190353394,0,1496.9970703125,-4.76837158203125e-05,1256.2647819519,1496.9970703125,-357.900190353394,1256.2647819519,1496.9970703125,-357.900190353394,0,0,-357.900190353394,1256.2647819519,0,-4.76837158203125e-05,0,0,-4.76837158203125e-05,1256.2647819519,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: -4.76837158203125e-07,0,-3.57900190353394,0,-4.76837158203125e-07,12.562647819519,-3.57900190353394,12.562647819519,14.969970703125,0,0,0,14.969970703125,12.562647819519,0,12.562647819519,3.57900190353394,0,4.76837158203125e-07,0,3.57900190353394,12.562647819519,4.76837158203125e-07,12.562647819519,0,0,-14.969970703125,0,0,12.562647819519,-14.969970703125,12.562647819519,4.76837158203125e-07,14.969970703125,3.57900190353394,14.969970703125,4.76837158203125e-07,0,3.57900190353394,0,-4.76837158203125e-07,0,-3.57900190353394,0,-4.76837158203125e-07,14.969970703125,-3.57900190353394,14.969970703125
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2597055985200, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,0,0,-1194.13681030273,0,0,-0,1366.6090965271,0,-1194.13681030273,1366.6090965271,0,-1194.13681030273,0,-206.752395629883,-1194.13681030273,1366.6090965271,-206.752395629883,-0,0,-206.752395629883,-0,1366.6090965271,-206.752395629883
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,-11.9413681030273,0,0,13.666090965271,-11.9413681030273,13.666090965271,0,0,-2.06752395629883,0,0,13.666090965271,-2.06752395629883,13.666090965271,11.9413681030273,0,0,0,11.9413681030273,13.666090965271,0,13.666090965271,2.06752395629883,0,0,0,2.06752395629883,13.666090965271,0,13.666090965271,0,0,11.9413681030273,0,0,-2.06752395629883,11.9413681030273,-2.06752395629883,0,-2.06752395629883,-11.9413681030273,-2.06752395629883,0,0,-11.9413681030273,0
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2597055987888, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -9.5367431640625e-05,0,0,-370.151424407959,0,0,-9.5367431640625e-05,1720.0569152832,0,-370.151424407959,1720.0569152832,0,-370.151424407959,0,-5452.44140625,-370.151424407959,1720.0569152832,-5452.44140625,-9.5367431640625e-05,0,-5452.44140625,-9.5367431640625e-05,1720.0569152832,-5452.44140625
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: -9.5367431640625e-07,0,-3.70151424407959,0,-9.5367431640625e-07,17.200569152832,-3.70151424407959,17.200569152832,0,0,-54.5244140625,0,0,17.200569152832,-54.5244140625,17.200569152832,3.70151424407959,0,9.5367431640625e-07,0,3.70151424407959,17.200569152832,9.5367431640625e-07,17.200569152832,54.5244140625,0,0,0,54.5244140625,17.200569152832,0,17.200569152832,9.5367431640625e-07,0,3.70151424407959,0,9.5367431640625e-07,-54.5244140625,3.70151424407959,-54.5244140625,-9.5367431640625e-07,-54.5244140625,-3.70151424407959,-54.5244140625,-9.5367431640625e-07,0,-3.70151424407959,0
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2597055986096, "Geometry::Scene", "Mesh" {
+		Vertices: *27 {
+			a: 1481.9920539856,0.00999999974737875,-1251.38788223267,1481.9920539856,0.00999999974737875,-625.693941116333,740.995979309082,0.00999999974737875,-1597.84259796143,740.995979309082,0.00999999974737875,-592.800617218018,1481.9920539856,0.00999999974737875,0,740.995979309082,0.00999999974737875,379.348087310791,-9.5367431640625e-05,0.00999999974737875,-1597.84259796143,-9.5367431640625e-05,0.00999999974737875,-592.800617218018,-9.5367431640625e-05,0.00999999974737875,379.348087310791
+		} 
+		PolygonVertexIndex: *16 {
+			a: 0,2,3,-2,1,3,5,-5,2,6,7,-4,3,7,8,-6
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *48 {
+				a: -0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0
+			} 
+			NormalsW: *16 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *48 {
+				a: 0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1
+			} 
+			BinormalsW: *16 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *48 {
+				a: -1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
+			} 
+			TangentsW: *16 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *32 {
+				a: -14.819920539856,-12.5138788223267,-14.819920539856,-6.25693941116333,-7.40995979309082,-15.9784259796143,-7.40995979309082,-5.92800617218018,-14.819920539856,-6.25693941116333,-14.819920539856,0,-7.40995979309082,-5.92800617218018,-7.40995979309082,3.79348087310791,-7.40995979309082,-15.9784259796143,-7.40995979309082,-5.92800617218018,9.5367431640625e-07,-15.9784259796143,9.5367431640625e-07,-5.92800617218018,-7.40995979309082,-5.92800617218018,-7.40995979309082,3.79348087310791,9.5367431640625e-07,-5.92800617218018,9.5367431640625e-07,3.79348087310791
+			} 
+			UVIndex: *16 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589147090368, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -238.216781616211,0,1330.98297119141,-590.613651275635,0,1330.98297119141,-238.216781616211,1388.82904052734,1330.98297119141,-590.613555908203,1388.82904052734,1330.98297119141,-590.613651275635,0,0,-590.613555908203,1388.82904052734,0,-238.216781616211,0,0,-238.216781616211,1388.82904052734,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,6.86675107886003e-08,0,-1,6.86675107886003e-08,0,-1,6.86675107886003e-08,0,-1,6.86675107886003e-08,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,6.86675107886003e-08,1,-0,6.86675107886003e-08,1,-0,6.86675107886003e-08,1,-0,6.86675107886003e-08,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: -2.38216781616211,0,-5.90613651275635,0,-2.38216781616211,13.8882904052734,-5.90613555908203,13.8882904052734,13.3098297119141,-4.05559688942958e-07,0,-4.05559688942958e-07,13.3098297119141,13.8882904052734,0,13.8882904052734,5.90613651275635,0,2.38216781616211,0,5.90613555908203,13.8882904052734,2.38216781616211,13.8882904052734,0,0,-13.3098297119141,0,0,13.8882904052734,-13.3098297119141,13.8882904052734,2.38216781616211,13.3098297119141,5.90613555908203,13.3098297119141,2.38216781616211,0,5.90613555908203,0,-2.38216781616211,0,-5.90613651275635,0,-2.38216781616211,13.3098297119141,-5.90613651275635,13.3098297119141
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589147089920, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 376.156997680664,0,275.482559204102,-0,0,275.482559204102,376.156997680664,1434.63859558105,275.482559204102,-0,1434.63859558105,275.482559204102,-0,0,0,-0,1434.63859558105,0,376.156997680664,0,0,376.156997680664,1434.63859558105,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 3.76156997680664,0,0,0,3.76156997680664,14.3463859558105,0,14.3463859558105,2.75482559204102,0,0,0,2.75482559204102,14.3463859558105,0,14.3463859558105,0,0,-3.76156997680664,0,0,14.3463859558105,-3.76156997680664,14.3463859558105,0,0,-2.75482559204102,0,0,14.3463859558105,-2.75482559204102,14.3463859558105,-3.76156997680664,2.75482559204102,0,2.75482559204102,-3.76156997680664,0,0,0,3.76156997680664,0,0,0,3.76156997680664,2.75482559204102,0,2.75482559204102
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589147092160, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 392.168426513672,0,229.891395568848,-0,0,229.891395568848,392.168426513672,1459.31043624878,229.891395568848,-0,1459.31043624878,229.891395568848,-0,0,0,-0,1459.31043624878,0,392.168426513672,0,0,392.168426513672,1459.31043624878,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 3.92168426513672,0,0,0,3.92168426513672,14.5931043624878,0,14.5931043624878,2.29891395568848,0,0,0,2.29891395568848,14.5931043624878,0,14.5931043624878,0,0,-3.92168426513672,0,0,14.5931043624878,-3.92168426513672,14.5931043624878,0,0,-2.29891395568848,0,0,14.5931043624878,-2.29891395568848,14.5931043624878,-3.92168426513672,2.29891395568848,0,2.29891395568848,-3.92168426513672,0,0,0,3.92168426513672,0,0,0,3.92168426513672,2.29891395568848,0,2.29891395568848
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589147090816, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 821.416473388672,0,310.558319091797,-0,0,310.558319091797,821.416473388672,1391.84675216675,310.558319091797,-0,1391.84675216675,310.558319091797,-0,0,0,-0,1391.84675216675,0,821.416473388672,0,0,821.416473388672,1391.84675216675,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 8.21416473388672,0,0,0,8.21416473388672,13.9184675216675,0,13.9184675216675,3.10558319091797,0,0,0,3.10558319091797,13.9184675216675,0,13.9184675216675,0,0,-8.21416473388672,0,0,13.9184675216675,-8.21416473388672,13.9184675216675,0,0,-3.10558319091797,0,0,13.9184675216675,-3.10558319091797,13.9184675216675,-8.21416473388672,3.10558319091797,0,3.10558319091797,-8.21416473388672,0,0,0,8.21416473388672,0,0,0,8.21416473388672,3.10558319091797,0,3.10558319091797
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589147091264, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 821.416473388672,0,310.558319091797,-0,0,310.558319091797,821.416473388672,1391.84675216675,310.558319091797,-0,1391.84675216675,310.558319091797,-0,0,0,-0,1391.84675216675,0,821.416473388672,0,0,821.416473388672,1391.84675216675,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 8.21416473388672,0,0,0,8.21416473388672,13.9184675216675,0,13.9184675216675,3.10558319091797,0,0,0,3.10558319091797,13.9184675216675,0,13.9184675216675,0,0,-8.21416473388672,0,0,13.9184675216675,-8.21416473388672,13.9184675216675,0,0,-3.10558319091797,0,0,13.9184675216675,-3.10558319091797,13.9184675216675,-8.21416473388672,3.10558319091797,0,3.10558319091797,-8.21416473388672,0,0,0,8.21416473388672,0,0,0,8.21416473388672,3.10558319091797,0,3.10558319091797
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589147089472, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,0,0,-1307.64389038086,0,0,-0,443.743228912354,0,-1307.64389038086,443.743228912354,0,-1307.64389038086,0,-501.534271240234,-1307.64389038086,443.743228912354,-501.534271240234,-0,0,-501.534271240234,-0,443.743228912354,-501.534271240234
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,-13.0764389038086,0,0,4.43743228912354,-13.0764389038086,4.43743228912354,0,0,-5.01534271240234,0,0,4.43743228912354,-5.01534271240234,4.43743228912354,13.0764389038086,0,0,0,13.0764389038086,4.43743228912354,0,4.43743228912354,5.01534271240234,0,0,0,5.01534271240234,4.43743228912354,0,4.43743228912354,0,0,13.0764389038086,0,0,-5.01534271240234,13.0764389038086,-5.01534271240234,0,-5.01534271240234,-13.0764389038086,-5.01534271240234,0,0,-13.0764389038086,0
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589147091712, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,9.5367431640625e-05,467.968225479126,-82.1132659912109,9.5367431640625e-05,467.968225479126,-0,308.953762054443,467.968225479126,-82.1132659912109,308.953762054443,467.968225479126,-82.1132659912109,9.5367431640625e-05,-4.76837158203125e-05,-82.1132659912109,308.953762054443,-4.76837158203125e-05,-0,9.5367431640625e-05,-4.76837158203125e-05,-0,308.953762054443,-4.76837158203125e-05
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,9.5367431640625e-07,-0.821132659912109,9.5367431640625e-07,0,3.08953762054443,-0.821132659912109,3.08953762054443,4.67968225479126,9.5367431640625e-07,-4.76837158203125e-07,9.5367431640625e-07,4.67968225479126,3.08953762054443,-4.76837158203125e-07,3.08953762054443,0.821132659912109,9.5367431640625e-07,0,9.5367431640625e-07,0.821132659912109,3.08953762054443,0,3.08953762054443,4.76837158203125e-07,9.5367431640625e-07,-4.67968225479126,9.5367431640625e-07,4.76837158203125e-07,3.08953762054443,-4.67968225479126,3.08953762054443,0,4.67968225479126,0.821132659912109,4.67968225479126,0,-4.76837158203125e-07,0.821132659912109,-4.76837158203125e-07,0,-4.76837158203125e-07,-0.821132659912109,-4.76837158203125e-07,0,4.67968225479126,-0.821132659912109,4.67968225479126
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589147092608, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,0,526.582336425781,-121.596336364746,0,526.582336425781,-0,253.553009033203,526.582336425781,-121.596336364746,253.553009033203,526.582336425781,-121.596336364746,0,0,-121.596336364746,253.553009033203,0,-0,0,0,-0,253.553009033203,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,-1.21596336364746,0,0,2.53553009033203,-1.21596336364746,2.53553009033203,5.26582336425781,0,0,0,5.26582336425781,2.53553009033203,0,2.53553009033203,1.21596336364746,0,0,0,1.21596336364746,2.53553009033203,0,2.53553009033203,0,0,-5.26582336425781,0,0,2.53553009033203,-5.26582336425781,2.53553009033203,0,5.26582336425781,1.21596336364746,5.26582336425781,0,0,1.21596336364746,0,0,0,-1.21596336364746,0,0,5.26582336425781,-1.21596336364746,5.26582336425781
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148279728, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,0,180.567288398743,-103.786468505859,0,180.567288398743,-0,201.428985595703,180.567288398743,-103.786468505859,201.428985595703,180.567288398743,-103.786468505859,0,-184.796953201294,-103.786468505859,201.428985595703,-184.796953201294,-0,0,-184.796953201294,-0,201.428985595703,-184.796953201294
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,-1.03786468505859,0,0,2.01428985595703,-1.03786468505859,2.01428985595703,1.80567288398743,0,-1.84796953201294,0,1.80567288398743,2.01428985595703,-1.84796953201294,2.01428985595703,1.03786468505859,0,0,0,1.03786468505859,2.01428985595703,0,2.01428985595703,1.84796953201294,0,-1.80567288398743,0,1.84796953201294,2.01428985595703,-1.80567288398743,2.01428985595703,0,1.80567288398743,1.03786468505859,1.80567288398743,0,-1.84796953201294,1.03786468505859,-1.84796953201294,0,-1.84796953201294,-1.03786468505859,-1.84796953201294,0,1.80567288398743,-1.03786468505859,1.80567288398743
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148281072, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 95.7679748535156,0,0,-0,0,0,95.7679748535156,137.324523925781,0,-0,137.324523925781,0,-0,0,-849.753379821777,-0,137.324523925781,-849.753379821777,95.7679748535156,0,-849.753379821777,95.7679748535156,137.324523925781,-849.753379821777
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0.957679748535156,0,0,0,0.957679748535156,1.37324523925781,0,1.37324523925781,0,0,-8.49753379821777,0,0,1.37324523925781,-8.49753379821777,1.37324523925781,0,0,-0.957679748535156,0,0,1.37324523925781,-0.957679748535156,1.37324523925781,8.49753379821777,0,0,0,8.49753379821777,1.37324523925781,0,1.37324523925781,-0.957679748535156,0,0,0,-0.957679748535156,-8.49753379821777,0,-8.49753379821777,0.957679748535156,-8.49753379821777,0,-8.49753379821777,0.957679748535156,0,0,0
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148275696, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 115.947437286377,0,0,-0,0,0,115.947437286377,136.289978027344,0,-0,136.289978027344,0,-0,0,-1020.78294754028,-0,136.289978027344,-1020.78294754028,115.947437286377,0,-1020.78294754028,115.947437286377,136.289978027344,-1020.78294754028
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 1.15947437286377,0,0,0,1.15947437286377,1.36289978027344,0,1.36289978027344,0,0,-10.2078294754028,0,0,1.36289978027344,-10.2078294754028,1.36289978027344,0,0,-1.15947437286377,0,0,1.36289978027344,-1.15947437286377,1.36289978027344,10.2078294754028,0,0,0,10.2078294754028,1.36289978027344,0,1.36289978027344,-1.15947437286377,0,0,0,-1.15947437286377,-10.2078294754028,0,-10.2078294754028,1.15947437286377,-10.2078294754028,0,-10.2078294754028,1.15947437286377,0,0,0
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148277040, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,2.23925441584409e-14,1948.47087860107,-529.782867431641,2.23925441584409e-14,1948.47087860107,-0,437.763023376465,1948.47087860107,-529.782867431641,437.763023376465,1948.47087860107,-529.782867431641,-2.14995384979744e-14,-28.2535552978516,-529.782867431641,437.763023376465,-28.2535552978516,-0,-2.14995384979744e-14,-28.2535552978516,-0,437.763023376465,-28.2535552978516
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,2.22044525515693e-17,-0,-1,2.22044525515693e-17,-0,-1,2.22044525515693e-17,-0,-1,2.22044525515693e-17
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,2.22044525515693e-17,1,-0,2.22044525515693e-17,1,-0,2.22044525515693e-17,1,-0,2.22044525515693e-17,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,2.23925441584409e-16,-5.29782867431641,2.23925441584409e-16,0,4.37763023376465,-5.29782867431641,4.37763023376465,19.4847087860107,2.23925441584409e-16,-0.282535552978516,-2.14995384979744e-16,19.4847087860107,4.37763023376465,-0.282535552978516,4.37763023376465,5.29782867431641,-2.14995384979744e-16,0,-2.14995384979744e-16,5.29782867431641,4.37763023376465,0,4.37763023376465,0.282535552978516,-2.14995384979744e-16,-19.4847087860107,2.23925441584409e-16,0.282535552978516,4.37763023376465,-19.4847087860107,4.37763023376465,0,19.4847087860107,5.29782867431641,19.4847087860107,0,-0.282535552978516,5.29782867431641,-0.282535552978516,-0,-0.282535552978516,-5.29782867431641,-0.282535552978516,0,19.4847087860107,-5.29782867431641,19.4847087860107
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148276144, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,0,323.172521591187,-251.707077026367,0,323.172521591187,-0,273.556089401245,323.172521591187,-251.707077026367,273.556089401245,323.172521591187,-251.707077026367,0,4.76837158203125e-05,-251.707077026367,273.556089401245,4.76837158203125e-05,-0,0,4.76837158203125e-05,-0,273.556089401245,4.76837158203125e-05
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,0,-2.51707077026367,0,0,2.73556089401245,-2.51707077026367,2.73556089401245,3.23172521591187,0,4.76837158203125e-07,0,3.23172521591187,2.73556089401245,4.76837158203125e-07,2.73556089401245,2.51707077026367,0,0,0,2.51707077026367,2.73556089401245,0,2.73556089401245,-4.76837158203125e-07,0,-3.23172521591187,0,-4.76837158203125e-07,2.73556089401245,-3.23172521591187,2.73556089401245,0,3.23172521591187,2.51707077026367,3.23172521591187,0,4.76837158203125e-07,2.51707077026367,4.76837158203125e-07,0,4.76837158203125e-07,-2.51707077026367,4.76837158203125e-07,0,3.23172521591187,-2.51707077026367,3.23172521591187
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148277936, "Geometry::Scene", "Mesh" {
+		Vertices: *42 {
+			a: -509.258460998535,0,220.790958404541,-509.258460998535,344.478607177734,220.790958404541,-381.943845748901,0,412.00156211853,-381.943845748901,344.478607177734,412.001609802246,-127.314603328705,0,412.001514434814,-127.314567565918,344.478607177734,412.001514434814,-0,0,220.790934562683,-0,344.478607177734,220.790958404541,-127.314639091492,0,29.5803666114807,-127.31466293335,344.478607177734,29.5803070068359,-381.943821907043,0,29.5803666114807,-381.943798065186,344.478607177734,29.5803070068359,-254.629230499268,0,220.790958404541,-254.629230499268,344.478607177734,220.790958404541
+		} 
+		PolygonVertexIndex: *72 {
+			a: 2,0,-13,4,2,-13,6,4,-13,8,6,-13,10,8,-13,0,10,-13,1,3,-14,3,5,-14,5,7,-14,7,9,-14,9,11,-14,11,1,-14,0,3,-2,3,0,-3,2,5,-4,5,2,-5,4,7,-6,7,4,-7,6,9,-8,9,6,-9,8,11,-10,11,8,-11,10,1,-12,1,10,-1
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *216 {
+				a: -0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-1,-1.14992486643928e-08,-1.07412553518316e-07,-0.472111910581589,-8.27690840310424e-08,0.88153862953186,-1,-2.30416770108377e-08,-1.07412546412888e-07,-0.472111910581589,-8.27690840310424e-08,0.88153862953186,-1,-1.14992486643928e-08,-1.07412553518316e-07,-0.472111970186234,-1.00268600533582e-07,0.881538569927216,-0.472111970186234,-1.00268600533582e-07,0.881538569927216,0.472112119197845,-3.5384939423011e-08,0.881538510322571,-0.472111910581589,-8.27690840310424e-08,0.88153862953186,0.472112119197845,-3.5384939423011e-08,0.881538510322571,-0.472111970186234,-1.00268600533582e-07,0.881538569927216,0.472112119197845,-8.82693811377067e-08,0.881538569927216,0.472112119197845,-8.82693811377067e-08,0.881538569927216,1,-2.30200782880274e-08,-1.07412553518316e-07,0.472112119197845,-3.5384939423011e-08,0.881538510322571,1,-2.30200782880274e-08,-1.07412553518316e-07,0.472112119197845,-8.82693811377067e-08,0.881538569927216,1,-1.44334419971415e-08,-1.07412553518316e-07,1,-1.44334419971415e-08,-1.07412553518316e-07,0.472111940383911,-1.19855826596904e-07,-0.88153862953186,1,-2.30200782880274e-08,-1.07412553518316e-07,0.472111940383911,-1.19855826596904e-07,-0.88153862953186,1,-1.44334419971415e-08,-1.07412553518316e-07,0.472111940383911,-9.81196990323951e-08,-0.88153862953186,0.472111940383911,-9.81196990323951e-08,-0.88153862953186,-0.472111940383911,-1.08997966208335e-07,-0.88153862953186,0.472111940383911,-1.19855826596904e-07,-0.88153862953186,-0.472111940383911,-1.08997966208335e-07,-0.88153862953186,0.472111940383911,-9.81196990323951e-08,-0.88153862953186,-0.472111940383911,-1.19855840807759e-07,-0.88153862953186,-0.472111940383911,-1.19855840807759e-07,-0.88153862953186,-1,-2.30416770108377e-08,-1.07412546412888e-07,-0.472111940383911,-1.08997966208335e-07,-0.88153862953186,
+-1,-2.30416770108377e-08,-1.07412546412888e-07,-0.472111940383911,-1.19855840807759e-07,-0.88153862953186,-1,-1.14992486643928e-08,-1.07412553518316e-07
+			} 
+			NormalsW: *72 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *216 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-1.14992495525712e-08,1,7.65659624590853e-09,-7.8152567084544e-08,0.999999940395355,5.20366540968098e-08,-2.30416787871945e-08,1,1.53419410509059e-08,-7.8152567084544e-08,0.999999940395355,5.20366540968098e-08,-1.14992495525712e-08,1,7.65659624590853e-09,-9.46760252418244e-08,0.999999940395355,6.30385414979173e-08,1.56942601275967e-14,0.99999988079071,1.13742721907784e-07,1.53110065180843e-14,1,4.01399731231322e-08,2.66241428860045e-14,0.999999940395355,9.3891621588682e-08,1.53110065180843e-14,1,4.01399731231322e-08,1.56942601275967e-14,0.99999988079071,1.13742721907784e-07,3.18543070610203e-14,1.00000011920929,1.00131046565366e-07,8.33460589433344e-08,1.00000011920929,5.54946808506429e-08,2.30200800643843e-08,1,1.5327561442291e-08,3.34113039457407e-08,0.999999940395355,2.22463985011245e-08,2.30200800643843e-08,1,1.5327561442291e-08,8.33460589433344e-08,1.00000011920929,5.54946808506429e-08,1.44334428853199e-08,1,9.61028234769401e-09,1.44334411089631e-08,1,-9.61028412405085e-09,1.13170735005497e-07,1,-7.53529931785124e-08,2.30200765116706e-08,1,-1.53275649950046e-08,1.13170735005497e-07,1,-7.53529931785124e-08,1.44334411089631e-08,1,-9.61028412405085e-09,9.26469638784511e-08,1,-6.16875581727072e-08,-1.64774335668916e-15,1,-1.11305055838784e-07,6.47673578722634e-16,1,-1.23645151006713e-07,-3.51613540800627e-16,1,-1.35962082481456e-07,6.47673578722634e-16,1,-1.23645151006713e-07,-1.64774335668916e-15,1,-1.11305055838784e-07,-9.37919582494687e-17,1,-1.3596209669231e-07,-1.13170756321779e-07,1,-7.53530002839398e-08,-2.30416752344809e-08,1,-1.53419446036196e-08,-1.02918477296043e-07,1,-6.85266883238e-08,-2.30416752344809e-08,1,-1.53419446036196e-08,-1.13170756321779e-07,1,-7.53530002839398e-08,-1.14992477762144e-08,1,-7.65659535773011e-09
+			} 
+			BinormalsW: *72 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *216 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1.43216723813566e-07,-7.65659802226537e-09,1,0.881538569927216,4.43273826533641e-08,0.472111880779266,-1.43216723813566e-07,-1.53419446036196e-08,1,0.881538569927216,4.43273826533641e-08,0.472111880779266,-1.43216723813566e-07,-7.65659802226537e-09,1,0.881538510322571,5.36993134403474e-08,0.472111999988556,0.881538510322571,-5.36993205457748e-08,0.472111970186234,0.881538510322571,1.89505531267287e-08,-0.472112089395523,0.881538569927216,-4.43273791006504e-08,0.472111910581589,0.881538510322571,1.89505531267287e-08,-0.472112089395523,0.881538510322571,-5.36993205457748e-08,0.472111970186234,0.881538569927216,4.72730512512953e-08,-0.47211217880249,0.881538569927216,-4.7273054804009e-08,-0.472112029790878,-1.43216738024421e-07,1.53275649950046e-08,-1,0.881538510322571,-1.8950560232156e-08,-0.472112059593201,-1.43216738024421e-07,1.53275649950046e-08,-1,0.881538569927216,-4.7273054804009e-08,-0.472112029790878,-1.43216723813566e-07,9.61028412405085e-09,-1,-7.16083690122105e-08,-9.61028323587243e-09,-1,-0.88153862953186,6.4189329407327e-08,-0.472111880779266,-1.43216723813566e-07,-1.5327561442291e-08,-1,-0.88153862953186,6.4189329407327e-08,-0.472111880779266,-7.16083690122105e-08,-9.61028323587243e-09,-1,-0.88153862953186,5.25484438185231e-08,-0.472111940383911,-0.88153862953186,-5.25484438185231e-08,-0.472111940383911,-0.88153862953186,5.83743471338494e-08,0.472111940383911,-0.88153862953186,-6.41893223018997e-08,-0.472111940383911,-0.88153862953186,5.83743471338494e-08,0.472111940383911,-0.88153862953186,-5.25484438185231e-08,-0.472111940383911,-0.88153862953186,6.4189329407327e-08,0.472111940383911,-0.88153862953186,-6.41893365127544e-08,0.472111940383911,-7.16083619067831e-08,1.53419428272628e-08,1,-0.88153862953186,-5.8374350686563e-08,0.472111880779266,-7.16083619067831e-08,1.53419428272628e-08,1,
+-0.88153862953186,-6.41893365127544e-08,0.472111940383911,-7.16083619067831e-08,7.65659446955169e-09,1
+			} 
+			TangentsW: *72 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *120 {
+				a: -0.984617352485657,0,-0.984617352485657,3.44478607177734,1.31256580352783,0,1.3125661611557,3.44478607177734,-3.81943917274475,5.70304337088601e-07,-3.81943917274475,3.4447865486145,-1.27314674854279,5.70304337088601e-07,-1.27314639091492,3.4447865486145,-4.13498020172119,1.05742437028766e-07,-4.13497972488403,3.44478607177734,-1.83779716491699,1.05742444134194e-07,-1.83779740333557,3.44478607177734,-1.83779692649841,4.6938001929675e-08,-1.83779716491699,3.44478607177734,0.459386110305786,4.69379983769613e-08,0.459386736154556,3.44478607177734,1.27314639091492,-5.11824858051568e-08,1.2731466293335,3.44478607177734,3.81943821907043,-5.11824858051568e-08,3.81943798065186,3.44478607177734,2.36302971839905,1.15443185677577e-07,2.36302900314331,3.44478607177734,4.66021299362183,1.15443192783005e-07,4.66021299362183,3.44478607177734,-5.09258460998535,2.20790958404541,-2.54629230499268,2.20790958404541,-3.81943845748901,4.1200156211853,5.09258460998535,2.20790958404541,2.54629230499268,2.20790958404541,3.81943845748901,4.12001609802246,-3.81943845748901,4.1200156211853,-2.54629230499268,2.20790958404541,-1.27314603328705,4.12001514434814,3.81943845748901,4.12001609802246,2.54629230499268,2.20790958404541,1.27314567565918,4.12001514434814,-1.27314603328705,4.12001514434814,-2.54629230499268,2.20790958404541,0,2.20790934562683,1.27314567565918,4.12001514434814,2.54629230499268,2.20790958404541,0,2.20790958404541,0,2.20790934562683,-2.54629230499268,2.20790958404541,-1.27314639091492,0.295803666114807,0,2.20790958404541,2.54629230499268,2.20790958404541,1.2731466293335,0.295803070068359,-1.27314639091492,0.295803666114807,-2.54629230499268,2.20790958404541,-3.81943821907043,0.295803666114807,1.2731466293335,0.295803070068359,2.54629230499268,2.20790958404541,3.81943798065186,0.295803070068359,-3.81943821907043,0.295803666114807,-2.54629230499268,2.20790958404541,-5.09258460998535,2.20790958404541,3.81943798065186,0.295803070068359,2.54629230499268,2.20790958404541,5.09258460998535,2.20790958404541
+			} 
+			UVIndex: *72 {
+				a: 26,24,25,32,30,31,38,36,37,44,42,43,50,48,49,56,54,55,27,29,28,33,35,34,39,41,40,45,47,46,51,53,52,57,59,58,0,3,1,3,0,2,4,7,5,7,4,6,8,11,9,11,8,10,12,15,13,15,12,14,16,19,17,19,16,18,20,23,21,23,20,22
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148278384, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,9.5367431640625e-05,9.5367431640625e-05,-404.095649719238,9.5367431640625e-05,9.5367431640625e-05,-0,935.123062133789,0.00019073486328125,-404.095649719238,935.123062133789,0.00019073486328125,-404.095649719238,9.5367431640625e-05,-1558.30097198486,-404.095649719238,935.123062133789,-1558.30097198486,-0,9.5367431640625e-05,-1558.30097198486,-0,935.123062133789,-1558.30097198486
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,-1.01983843592279e-07,1,-0,-1.01983843592279e-07,1,-0,-1.01983843592279e-07,1,-0,-1.01983843592279e-07,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: -0,1,1.01983843592279e-07,-0,1,1.01983843592279e-07,-0,1,1.01983843592279e-07,-0,1,1.01983843592279e-07,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,9.53674430093088e-07,-4.04095649719238,9.53674430093088e-07,0,9.35123062133789,-4.04095649719238,9.35123062133789,9.5367431640625e-07,9.5367431640625e-07,-15.5830097198486,9.5367431640625e-07,1.9073486328125e-06,9.35123062133789,-15.5830097198486,9.35123062133789,4.04095649719238,9.5367431640625e-07,0,9.5367431640625e-07,4.04095649719238,9.35123062133789,0,9.35123062133789,15.5830097198486,9.5367431640625e-07,-9.5367431640625e-07,9.5367431640625e-07,15.5830097198486,9.35123062133789,-1.9073486328125e-06,9.35123062133789,0,1.9073486328125e-06,4.04095649719238,1.9073486328125e-06,0,-15.5830097198486,4.04095649719238,-15.5830097198486,0,-15.5830097198486,-4.04095649719238,-15.5830097198486,0,9.5367431640625e-07,-4.04095649719238,9.5367431640625e-07
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148276592, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 4.76837158203125e-05,0,1556.48813247681,-232.625818252563,0,1556.48813247681,4.76837158203125e-05,1254.2742729187,1556.48813247681,-232.625818252563,1254.2742729187,1556.48813247681,-232.625818252563,0,-9.5367431640625e-05,-232.625818252563,1254.2742729187,-9.5367431640625e-05,4.76837158203125e-05,0,-9.5367431640625e-05,4.76837158203125e-05,1254.2742729187,-9.5367431640625e-05
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 4.76837158203125e-07,0,-2.32625818252563,0,4.76837158203125e-07,12.542742729187,-2.32625818252563,12.542742729187,15.5648813247681,0,-9.5367431640625e-07,0,15.5648813247681,12.542742729187,-9.5367431640625e-07,12.542742729187,2.32625818252563,0,-4.76837158203125e-07,0,2.32625818252563,12.542742729187,-4.76837158203125e-07,12.542742729187,9.5367431640625e-07,0,-15.5648813247681,0,9.5367431640625e-07,12.542742729187,-15.5648813247681,12.542742729187,-4.76837158203125e-07,15.5648813247681,2.32625818252563,15.5648813247681,-4.76837158203125e-07,-9.5367431640625e-07,2.32625818252563,-9.5367431640625e-07,4.76837158203125e-07,-9.5367431640625e-07,-2.32625818252563,-9.5367431640625e-07,4.76837158203125e-07,15.5648813247681,-2.32625818252563,15.5648813247681
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148278832, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 95.9489345550537,0,593.66307258606,4.76837158203125e-05,0,593.66307258606,95.9489345550537,1243.34707260132,593.66307258606,4.76837158203125e-05,1243.34707260132,593.66307258606,4.76837158203125e-05,0,-4.76837158203125e-05,4.76837158203125e-05,1243.34707260132,-4.76837158203125e-05,95.9489345550537,0,-4.76837158203125e-05,95.9489345550537,1243.34707260132,-4.76837158203125e-05
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0.959489345550537,0,4.76837158203125e-07,0,0.959489345550537,12.4334707260132,4.76837158203125e-07,12.4334707260132,5.9366307258606,0,-4.76837158203125e-07,0,5.9366307258606,12.4334707260132,-4.76837158203125e-07,12.4334707260132,-4.76837158203125e-07,0,-0.959489345550537,0,-4.76837158203125e-07,12.4334707260132,-0.959489345550537,12.4334707260132,4.76837158203125e-07,0,-5.9366307258606,0,4.76837158203125e-07,12.4334707260132,-5.9366307258606,12.4334707260132,-0.959489345550537,5.9366307258606,-4.76837158203125e-07,5.9366307258606,-0.959489345550537,-4.76837158203125e-07,-4.76837158203125e-07,-4.76837158203125e-07,0.959489345550537,-4.76837158203125e-07,4.76837158203125e-07,-4.76837158203125e-07,0.959489345550537,5.9366307258606,4.76837158203125e-07,5.9366307258606
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148277488, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 141.864013671875,0.000107288360595703,-4.76837158203125e-05,-5.96046447753906e-06,0.000107288360595703,-4.76837158203125e-05,141.864013671875,204.426336288452,-4.76837158203125e-05,-5.96046447753906e-06,204.426336288452,-4.76837158203125e-05,-5.96046447753906e-06,0.000107288360595703,-1480.04665374756,-5.96046447753906e-06,204.426336288452,-1480.04665374756,141.864013671875,0.000107288360595703,-1480.04665374756,141.864013671875,204.426336288452,-1480.04665374756
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 1.41864013671875,1.07288360595703e-06,-5.96046447753906e-08,1.07288360595703e-06,1.41864013671875,2.04426336288452,-5.96046447753906e-08,2.04426336288452,-4.76837158203125e-07,1.07288360595703e-06,-14.8004665374756,1.07288360595703e-06,-4.76837158203125e-07,2.04426336288452,-14.8004665374756,2.04426336288452,5.96046447753906e-08,1.07288360595703e-06,-1.41864013671875,1.07288360595703e-06,5.96046447753906e-08,2.04426336288452,-1.41864013671875,2.04426336288452,14.8004665374756,1.07288360595703e-06,4.76837158203125e-07,1.07288360595703e-06,14.8004665374756,2.04426336288452,4.76837158203125e-07,2.04426336288452,-1.41864013671875,-4.76837158203125e-07,5.96046447753906e-08,-4.76837158203125e-07,-1.41864013671875,-14.8004665374756,5.96046447753906e-08,-14.8004665374756,1.41864013671875,-14.8004665374756,-5.96046447753906e-08,-14.8004665374756,1.41864013671875,-4.76837158203125e-07,-5.96046447753906e-08,-4.76837158203125e-07
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148274800, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 147.754812240601,0,0,4.76837158203125e-05,0,0,147.754812240601,485.168075561523,0,4.76837158203125e-05,485.168075561523,0,4.76837158203125e-05,0,-724.289417266846,4.76837158203125e-05,485.168075561523,-724.289417266846,147.754812240601,0,-724.289417266846,147.754812240601,485.168075561523,-724.289417266846
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 1.47754812240601,0,4.76837158203125e-07,0,1.47754812240601,4.85168075561523,4.76837158203125e-07,4.85168075561523,0,0,-7.24289417266846,0,0,4.85168075561523,-7.24289417266846,4.85168075561523,-4.76837158203125e-07,0,-1.47754812240601,0,-4.76837158203125e-07,4.85168075561523,-1.47754812240601,4.85168075561523,7.24289417266846,0,0,0,7.24289417266846,4.85168075561523,0,4.85168075561523,-1.47754812240601,0,-4.76837158203125e-07,0,-1.47754812240601,-7.24289417266846,-4.76837158203125e-07,-7.24289417266846,1.47754812240601,-7.24289417266846,4.76837158203125e-07,-7.24289417266846,1.47754812240601,0,4.76837158203125e-07,0
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148280176, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 4.76837158203125e-05,0,498.574066162109,-222.164964675903,0,498.574066162109,4.76837158203125e-05,1173.07252883911,498.574066162109,-222.164964675903,1173.07252883911,498.574066162109,-222.164964675903,0,0,-222.164964675903,1173.07252883911,0,4.76837158203125e-05,0,0,4.76837158203125e-05,1173.07252883911,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 4.76837158203125e-07,0,-2.22164964675903,0,4.76837158203125e-07,11.7307252883911,-2.22164964675903,11.7307252883911,4.98574066162109,0,0,0,4.98574066162109,11.7307252883911,0,11.7307252883911,2.22164964675903,0,-4.76837158203125e-07,0,2.22164964675903,11.7307252883911,-4.76837158203125e-07,11.7307252883911,0,0,-4.98574066162109,0,0,11.7307252883911,-4.98574066162109,11.7307252883911,-4.76837158203125e-07,4.98574066162109,2.22164964675903,4.98574066162109,-4.76837158203125e-07,0,2.22164964675903,0,4.76837158203125e-07,0,-2.22164964675903,0,4.76837158203125e-07,4.98574066162109,-2.22164964675903,4.98574066162109
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148279280, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 199.761247634888,0,0,-4.76837158203125e-05,0,0,199.761247634888,77.271294593811,0,-4.76837158203125e-05,77.271294593811,0,-4.76837158203125e-05,0,-1447.60799407959,-4.76837158203125e-05,77.271294593811,-1447.60799407959,199.761247634888,0,-1447.60799407959,199.761247634888,77.271294593811,-1447.60799407959
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 1.99761247634888,0,-4.76837158203125e-07,0,1.99761247634888,0.77271294593811,-4.76837158203125e-07,0.77271294593811,0,0,-14.4760799407959,0,0,0.77271294593811,-14.4760799407959,0.77271294593811,4.76837158203125e-07,0,-1.99761247634888,0,4.76837158203125e-07,0.77271294593811,-1.99761247634888,0.77271294593811,14.4760799407959,0,0,0,14.4760799407959,0.77271294593811,0,0.77271294593811,-1.99761247634888,0,4.76837158203125e-07,0,-1.99761247634888,-14.4760799407959,4.76837158203125e-07,-14.4760799407959,1.99761247634888,-14.4760799407959,-4.76837158203125e-07,-14.4760799407959,1.99761247634888,0,-4.76837158203125e-07,0
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148280624, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,1.9429382033951e-14,1375.02126693726,-130.588150024414,1.9429382033951e-14,1375.02126693726,-0,129.473662376404,1375.02126693726,-130.588150024414,129.473662376404,1375.02126693726,-130.588150024414,0,285.109710693359,-130.588150024414,129.473686218262,285.109710693359,-0,0,285.109710693359,-0,129.473686218262,285.109710693359
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,2.18750404457069e-08,-0,1,2.18750404457069e-08,-0,1,2.18750404457069e-08,-0,1,2.18750404457069e-08,-0,-1,1.78265677267691e-17,-0,-1,1.78265677267691e-17,-0,-1,1.78265677267691e-17,-0,-1,1.78265677267691e-17
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-2.18750404457069e-08,1,0,-2.18750404457069e-08,1,0,-2.18750404457069e-08,1,0,-2.18750404457069e-08,1,-0,1.78265677267691e-17,1,-0,1.78265677267691e-17,1,-0,1.78265677267691e-17,1,-0,1.78265677267691e-17,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,1.9429382033951e-16,-1.30588150024414,1.9429382033951e-16,0,1.29473662376404,-1.30588150024414,1.29473662376404,13.7502126693726,1.9429382033951e-16,2.85109710693359,0,13.7502126693726,1.29473662376404,2.85109710693359,1.29473686218262,1.30588150024414,0,0,0,1.30588150024414,1.29473686218262,0,1.29473686218262,-2.85109710693359,0,-13.7502126693726,1.9429382033951e-16,-2.85109710693359,1.29473686218262,-13.7502126693726,1.29473662376404,0,13.7502126693726,1.30588150024414,13.7502126693726,0,2.85109710693359,1.30588150024414,2.85109710693359,0,2.85109710693359,-1.30588150024414,2.85109710693359,0,13.7502126693726,-1.30588150024414,13.7502126693726
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148281520, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: -0,1.9429382033951e-14,1375.02126693726,-130.588150024414,1.9429382033951e-14,1375.02126693726,-0,129.473662376404,1375.02126693726,-130.588150024414,129.473662376404,1375.02126693726,-130.588126182556,0,9.5367431640625e-05,-130.588126182556,129.473662376404,9.5367431640625e-05,-2.38418579101562e-05,0,9.5367431640625e-05,-2.38418579101562e-05,129.473662376404,9.5367431640625e-05
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,-1.73392660229865e-08,-1,0,-1.73392660229865e-08,-1,0,-1.73392660229865e-08,-1,0,-1.73392660229865e-08,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,-1.73392660229865e-08,1,0,-1.73392660229865e-08,1,0,-1.73392660229865e-08,1,0,-1.73392660229865e-08,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,1.41302416764044e-17,-0,-1,1.41302416764044e-17,-0,-1,1.41302416764044e-17,-0,-1,1.41302416764044e-17
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,1.41302416764044e-17,1,-0,1.41302416764044e-17,1,-0,1.41302416764044e-17,1,-0,1.41302416764044e-17,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-1.73392660229865e-08,0,1,-1.73392660229865e-08,0,1,-1.73392660229865e-08,0,1,-1.73392660229865e-08,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1.73392660229865e-08,0,-1,-1.73392660229865e-08,0,-1,-1.73392660229865e-08,0,-1,-1.73392660229865e-08,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0,1.9429382033951e-16,-1.30588150024414,1.9429382033951e-16,0,1.29473662376404,-1.30588150024414,1.29473662376404,13.7502126693726,1.9429382033951e-16,9.76317323875264e-07,0,13.7502126693726,1.29473662376404,9.76317323875264e-07,1.29473662376404,1.30588126182556,0,2.38418579101562e-07,0,1.30588126182556,1.29473662376404,2.38418579101562e-07,1.29473662376404,-9.5367431640625e-07,0,-13.7502126693726,1.9429382033951e-16,-9.5367431640625e-07,1.29473662376404,-13.7502126693726,1.29473662376404,0,13.7502126693726,1.30588150024414,13.7502126693726,2.38418579101562e-07,9.5367431640625e-07,1.30588126182556,9.5367431640625e-07,-2.38418579101562e-07,9.5367431640625e-07,-1.30588126182556,9.5367431640625e-07,0,13.7502126693726,-1.30588150024414,13.7502126693726
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148281968, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 516.532516479492,0,109.764194488525,-0,0,109.764194488525,516.532516479492,113.305222988129,109.764194488525,-0,113.305222988129,109.764194488525,-0,0,-9.5367431640625e-05,-0,113.305222988129,-9.5367431640625e-05,516.532516479492,0,-9.5367431640625e-05,516.532516479492,113.305222988129,-9.5367431640625e-05
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 5.16532516479492,0,0,0,5.16532516479492,1.13305222988129,0,1.13305222988129,1.09764194488525,0,-9.5367431640625e-07,0,1.09764194488525,1.13305222988129,-9.5367431640625e-07,1.13305222988129,0,0,-5.16532516479492,0,0,1.13305222988129,-5.16532516479492,1.13305222988129,9.5367431640625e-07,0,-1.09764194488525,0,9.5367431640625e-07,1.13305222988129,-1.09764194488525,1.13305222988129,-5.16532516479492,1.09764194488525,0,1.09764194488525,-5.16532516479492,-9.5367431640625e-07,0,-9.5367431640625e-07,5.16532516479492,-9.5367431640625e-07,0,-9.5367431640625e-07,5.16532516479492,1.09764194488525,0,1.09764194488525
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148275248, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 516.532516479492,0,109.764194488525,-0,0,109.764194488525,516.532516479492,113.305222988129,109.764194488525,-0,113.305222988129,109.764194488525,-0,0,-9.5367431640625e-05,-0,113.305222988129,-9.5367431640625e-05,516.532516479492,0,-9.5367431640625e-05,516.532516479492,113.305222988129,-9.5367431640625e-05
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 5.16532516479492,0,0,0,5.16532516479492,1.13305222988129,0,1.13305222988129,1.09764194488525,0,-9.5367431640625e-07,0,1.09764194488525,1.13305222988129,-9.5367431640625e-07,1.13305222988129,0,0,-5.16532516479492,0,0,1.13305222988129,-5.16532516479492,1.13305222988129,9.5367431640625e-07,0,-1.09764194488525,0,9.5367431640625e-07,1.13305222988129,-1.09764194488525,1.13305222988129,-5.16532516479492,1.09764194488525,0,1.09764194488525,-5.16532516479492,-9.5367431640625e-07,0,-9.5367431640625e-07,5.16532516479492,-9.5367431640625e-07,0,-9.5367431640625e-07,5.16532516479492,1.09764194488525,0,1.09764194488525
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2589148282416, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 516.532516479492,0,109.764194488525,-0,0,109.764194488525,516.532516479492,113.305222988129,109.764194488525,-0,113.305222988129,109.764194488525,-0,0,-9.5367431640625e-05,-0,113.305222988129,-9.5367431640625e-05,516.532516479492,0,-9.5367431640625e-05,516.532516479492,113.305222988129,-9.5367431640625e-05
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,0,1,0,0,1,0,0,1,0,0,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 5.16532516479492,0,0,0,5.16532516479492,1.13305222988129,0,1.13305222988129,1.09764194488525,0,-9.5367431640625e-07,0,1.09764194488525,1.13305222988129,-9.5367431640625e-07,1.13305222988129,0,0,-5.16532516479492,0,0,1.13305222988129,-5.16532516479492,1.13305222988129,9.5367431640625e-07,0,-1.09764194488525,0,9.5367431640625e-07,1.13305222988129,-1.09764194488525,1.13305222988129,-5.16532516479492,1.09764194488525,0,1.09764194488525,-5.16532516479492,-9.5367431640625e-07,0,-9.5367431640625e-07,5.16532516479492,-9.5367431640625e-07,0,-9.5367431640625e-07,5.16532516479492,1.09764194488525,0,1.09764194488525
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 2602735664000, "Geometry::Scene", "Mesh" {
+		Vertices: *24 {
+			a: 192.214488983154,0,109.764099121094,-0,0,109.764194488525,192.214488983154,113.305187225342,109.764099121094,-0,113.305222988129,109.764194488525,-0,0,-9.5367431640625e-05,-0,113.305222988129,-9.5367431640625e-05,192.214488983154,0,0,192.214488983154,113.305187225342,0
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,2,3,-2,1,3,5,-5,4,5,7,-7,6,7,2,-1,2,7,5,-4,6,0,1,-5
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: "Normals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: 4.96151130846556e-07,0,1,4.96151130846556e-07,0,1,4.96151130846556e-07,0,1,4.96151130846556e-07,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,4.96151130846556e-07,0,-1,4.96151130846556e-07,0,-1,4.96151130846556e-07,0,-1,4.96151130846556e-07,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,1.86056652751176e-07,1,0,1.86056666962031e-07,1,0,1.86056666962031e-07,1,0,1.86056666962031e-07,1,0,-0,-1,0,-0,-1,0,-0,-1,0,-0,-1,0
+			} 
+			NormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "Binormals"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: -0,1,-0,-0,1,-0,-0,1,-0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,0,0,1,0,0,1,0,0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,1,0,0,-0,1,0,-0,1,0,-0,1,0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "Tangents"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,0,-4.96151130846556e-07,1,0,-4.96151130846556e-07,1,0,-4.96151130846556e-07,1,0,-4.96151130846556e-07,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-1,0,-4.96151130846556e-07,-1,0,-4.96151130846556e-07,-1,0,-4.96151130846556e-07,-1,0,-4.96151130846556e-07,-0,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-1,1.86056652751176e-07,0,-1,1.86056666962031e-07,0,-1,1.86056666962031e-07,0,-1,1.86056666962031e-07,0,1,0,0,1,0,0,1,0,0,1,0,0
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVSet0"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 1.9221442937851,0,-5.44596275631193e-07,0,1.9221442937851,1.13305187225342,-5.44596275631193e-07,1.13305222988129,1.09764194488525,0,-9.5367431640625e-07,0,1.09764194488525,1.13305222988129,-9.5367431640625e-07,1.13305222988129,4.73166590544277e-13,0,-1.92214488983154,0,4.73166590544277e-13,1.13305222988129,-1.92214488983154,1.13305187225342,0,0,-1.09764099121094,0,0,1.13305187225342,-1.09764099121094,1.13305187225342,-1.92214465141296,1.09764099121094,2.10811904821639e-07,1.09764194488525,-1.92214465141296,0,2.10811904821639e-07,-9.5367431640625e-07,1.92214488983154,0,0,-9.5367431640625e-07,1.92214488983154,1.09764099121094,0,1.09764194488525
+			} 
+			UVIndex: *24 {
+				a: 0,2,3,1,4,6,7,5,8,10,11,9,12,14,15,13,16,18,19,17,20,22,23,21
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: "Material"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 2602714876112, "Model::Environment", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2602714878112, "Model::Cube", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2933.349609375,2289.0100479126,508.074378967285
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714880112, "Model::Cube__7_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2933.349609375,2289.0100479126,-2869.5198059082
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714886112, "Model::Cube__1_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2729.79354858398,2289.0100479126,5910.48049926758
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714882112, "Model::Cube__13_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2729.79354858398,2289.0100479126,150.480270385742
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714884112, "Model::Cube__2_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",3780.68008422852,2289.01023864746,2764.94331359863
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.2722218874358e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714888112, "Model::Cube__3_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1752.00004577637,2288.99993896484,2164.99996185303
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.2722218874358e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714674112, "Model::Cube__4_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-177.126216888428,2289.0100479126,2429.5446395874
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.2722218874358e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714646112, "Model::Cube__5_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1529.31385040283,2289.0100479126,673.480415344238
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222178155669e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714720112, "Model::Cube__6_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-571.319770812988,2289.0100479126,5917.77648925781
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714734112, "Model::Plane__1_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2573.68316650391,2289.0100479126,3849.9324798584
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714724112, "Model::Cube__8_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",4660.81886291504,2289.0100479126,2566.35456085205
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714736112, "Model::Cube__9_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2965.95497131348,2289.0100479126,2010.48030853271
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2602714714112, "Model::Cube__10_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2934.41925048828,2289.0100479126,4230.4801940918
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150749120, "Model::Cube__11_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",3491.46995544434,2289.0100479126,1975.40340423584
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-25.1958808898926,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150739120, "Model::Cube__12_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",3308.68034362793,2289.0100479126,4230.4801940918
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,26.3206481933594,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150751120, "Model::Cube__14_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1738.18531036377,2289.0100479126,5891.86248779297
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222178155669e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150733120, "Model::Cube__15_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2370.39909362793,3414.35623168945,5910.48011779785
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-90,90
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150743120, "Model::Cube__16_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1449.34339523315,3273.2063293457,5910.48049926758
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-90,90
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150725120, "Model::Cube__17_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",447.779035568237,3470.84617614746,5910.48049926758
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-90,90
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150757120, "Model::Cube__18_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",426.442623138428,3453.49273681641,673.480606079102
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-90,-90
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150753120, "Model::Cube__19_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",429.846668243408,3096.54579162598,673.480606079102
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-90,-90
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150727120, "Model::Cube__20_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2603.68022918701,2289.01023864746,2280.48038482666
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222178155669e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150759120, "Model::Cube__21_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1175.05779266357,2289.0100479126,3981.27021789551
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.2722218874358e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150729120, "Model::Cylinder", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1990.21492004395,2289.01023864746,1581.76231384277
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222199331492e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150773120, "Model::Cube__22_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-168.466854095459,2289.0100479126,5787.63656616211
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222178155669e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150771120, "Model::Cube__23_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2491.89281463623,2289.0100479126,500.678634643555
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222209919404e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150767120, "Model::Cube__24_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-507.455635070801,2289.0100479126,1029.37545776367
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222156979845e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150789120, "Model::Cube__25_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-571.31986618042,3847.42622375488,2234.56993103027
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,0,-90
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150775120, "Model::Cube__26_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-480.319786071777,3545.2751159668,3495.88737487793
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.2722218874358e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150777120, "Model::Cube__27_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2585.09864807129,2289.0100479126,4593.95484924316
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150781120, "Model::Cube__28_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-156.32791519165,2289.0100479126,3895.60852050781
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.2722218874358e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150783120, "Model::Cube_1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2287.6802444458,3119.01016235352,586.892318725586
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222209919404e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150785120, "Model::Cube__1__1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2287.6802444458,2700.01010894775,586.892318725586
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222209919404e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150763120, "Model::Cube__2__1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-398.991680145264,2854.01000976562,500.603103637695
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222199331492e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150787120, "Model::Cube__3__1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-521.319770812988,3167.01011657715,500.603103637695
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222199331492e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150761120, "Model::Cube__4__1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-521.319770812988,3635.01014709473,500.603103637695
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222199331492e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2589150793120, "Model::Cube__5__1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",60.6802940368652,3422.0100402832,500.603103637695
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.27222199331492e-15,0,0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Material: 2597152917456, "Material::Lit", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",0.5,0.5,0.5
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",0.5,0.5,0.5
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Material: 2597152919456, "Material::New_Material_1", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",0.255547553300858,0.556603729724884,0.32163205742836
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",0.255547553300858,0.556603729724884,0.32163205742836
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::Environment, Model::RootNode
+	C: "OO",2602714876112,0
+	
+	;Model::Cube, Model::Environment
+	C: "OO",2602714878112,2602714876112
+	
+	;Model::Cube__7_, Model::Environment
+	C: "OO",2602714880112,2602714876112
+	
+	;Model::Cube__1_, Model::Environment
+	C: "OO",2602714886112,2602714876112
+	
+	;Model::Cube__13_, Model::Environment
+	C: "OO",2602714882112,2602714876112
+	
+	;Model::Cube__2_, Model::Environment
+	C: "OO",2602714884112,2602714876112
+	
+	;Model::Cube__3_, Model::Environment
+	C: "OO",2602714888112,2602714876112
+	
+	;Model::Cube__4_, Model::Environment
+	C: "OO",2602714674112,2602714876112
+	
+	;Model::Cube__5_, Model::Environment
+	C: "OO",2602714646112,2602714876112
+	
+	;Model::Cube__6_, Model::Environment
+	C: "OO",2602714720112,2602714876112
+	
+	;Model::Plane__1_, Model::Environment
+	C: "OO",2602714734112,2602714876112
+	
+	;Model::Cube__8_, Model::Environment
+	C: "OO",2602714724112,2602714876112
+	
+	;Model::Cube__9_, Model::Environment
+	C: "OO",2602714736112,2602714876112
+	
+	;Model::Cube__10_, Model::Environment
+	C: "OO",2602714714112,2602714876112
+	
+	;Model::Cube__11_, Model::Environment
+	C: "OO",2589150749120,2602714876112
+	
+	;Model::Cube__12_, Model::Environment
+	C: "OO",2589150739120,2602714876112
+	
+	;Model::Cube__14_, Model::Environment
+	C: "OO",2589150751120,2602714876112
+	
+	;Model::Cube__15_, Model::Environment
+	C: "OO",2589150733120,2602714876112
+	
+	;Model::Cube__16_, Model::Environment
+	C: "OO",2589150743120,2602714876112
+	
+	;Model::Cube__17_, Model::Environment
+	C: "OO",2589150725120,2602714876112
+	
+	;Model::Cube__18_, Model::Environment
+	C: "OO",2589150757120,2602714876112
+	
+	;Model::Cube__19_, Model::Environment
+	C: "OO",2589150753120,2602714876112
+	
+	;Model::Cube__20_, Model::Environment
+	C: "OO",2589150727120,2602714876112
+	
+	;Model::Cube__21_, Model::Environment
+	C: "OO",2589150759120,2602714876112
+	
+	;Model::Cylinder, Model::Environment
+	C: "OO",2589150729120,2602714876112
+	
+	;Model::Cube__22_, Model::Environment
+	C: "OO",2589150773120,2602714876112
+	
+	;Model::Cube__23_, Model::Environment
+	C: "OO",2589150771120,2602714876112
+	
+	;Model::Cube__24_, Model::Environment
+	C: "OO",2589150767120,2602714876112
+	
+	;Model::Cube__25_, Model::Environment
+	C: "OO",2589150789120,2602714876112
+	
+	;Model::Cube__26_, Model::Environment
+	C: "OO",2589150775120,2602714876112
+	
+	;Model::Cube__27_, Model::Environment
+	C: "OO",2589150777120,2602714876112
+	
+	;Model::Cube__28_, Model::Environment
+	C: "OO",2589150781120,2602714876112
+	
+	;Model::Cube_1, Model::Environment
+	C: "OO",2589150783120,2602714876112
+	
+	;Model::Cube__1__1, Model::Environment
+	C: "OO",2589150785120,2602714876112
+	
+	;Model::Cube__2__1, Model::Environment
+	C: "OO",2589150763120,2602714876112
+	
+	;Model::Cube__3__1, Model::Environment
+	C: "OO",2589150787120,2602714876112
+	
+	;Model::Cube__4__1, Model::Environment
+	C: "OO",2589150761120,2602714876112
+	
+	;Model::Cube__5__1, Model::Environment
+	C: "OO",2589150793120,2602714876112
+	
+	;Material::Lit, Model::Cube
+	C: "OO",2597152917456,2602714878112
+	
+	;Geometry::Scene, Model::Cube
+	C: "OO",2589000996384,2602714878112
+	
+	;Material::Lit, Model::Cube__7_
+	C: "OO",2597152917456,2602714880112
+	
+	;Geometry::Scene, Model::Cube__7_
+	C: "OO",2596913508544,2602714880112
+	
+	;Material::Lit, Model::Cube__1_
+	C: "OO",2597152917456,2602714886112
+	
+	;Geometry::Scene, Model::Cube__1_
+	C: "OO",2597055987440,2602714886112
+	
+	;Material::Lit, Model::Cube__13_
+	C: "OO",2597152917456,2602714882112
+	
+	;Geometry::Scene, Model::Cube__13_
+	C: "OO",2597055986544,2602714882112
+	
+	;Material::New_Material_1, Model::Cube__2_
+	C: "OO",2597152919456,2602714884112
+	
+	;Geometry::Scene, Model::Cube__2_
+	C: "OO",2597055985648,2602714884112
+	
+	;Material::Lit, Model::Cube__3_
+	C: "OO",2597152917456,2602714888112
+	
+	;Geometry::Scene, Model::Cube__3_
+	C: "OO",2597055986992,2602714888112
+	
+	;Material::Lit, Model::Cube__4_
+	C: "OO",2597152917456,2602714674112
+	
+	;Geometry::Scene, Model::Cube__4_
+	C: "OO",2597055984752,2602714674112
+	
+	;Material::Lit, Model::Cube__5_
+	C: "OO",2597152917456,2602714646112
+	
+	;Geometry::Scene, Model::Cube__5_
+	C: "OO",2597055985200,2602714646112
+	
+	;Material::Lit, Model::Cube__6_
+	C: "OO",2597152917456,2602714720112
+	
+	;Geometry::Scene, Model::Cube__6_
+	C: "OO",2597055987888,2602714720112
+	
+	;Material::Lit, Model::Plane__1_
+	C: "OO",2597152917456,2602714734112
+	
+	;Geometry::Scene, Model::Plane__1_
+	C: "OO",2597055986096,2602714734112
+	
+	;Material::Lit, Model::Cube__8_
+	C: "OO",2597152917456,2602714724112
+	
+	;Geometry::Scene, Model::Cube__8_
+	C: "OO",2589147090368,2602714724112
+	
+	;Material::Lit, Model::Cube__9_
+	C: "OO",2597152917456,2602714736112
+	
+	;Geometry::Scene, Model::Cube__9_
+	C: "OO",2589147089920,2602714736112
+	
+	;Material::Lit, Model::Cube__10_
+	C: "OO",2597152917456,2602714714112
+	
+	;Geometry::Scene, Model::Cube__10_
+	C: "OO",2589147092160,2602714714112
+	
+	;Material::Lit, Model::Cube__11_
+	C: "OO",2597152917456,2589150749120
+	
+	;Geometry::Scene, Model::Cube__11_
+	C: "OO",2589147090816,2589150749120
+	
+	;Material::Lit, Model::Cube__12_
+	C: "OO",2597152917456,2589150739120
+	
+	;Geometry::Scene, Model::Cube__12_
+	C: "OO",2589147091264,2589150739120
+	
+	;Material::Lit, Model::Cube__14_
+	C: "OO",2597152917456,2589150751120
+	
+	;Geometry::Scene, Model::Cube__14_
+	C: "OO",2589147089472,2589150751120
+	
+	;Material::Lit, Model::Cube__15_
+	C: "OO",2597152917456,2589150733120
+	
+	;Geometry::Scene, Model::Cube__15_
+	C: "OO",2589147091712,2589150733120
+	
+	;Material::Lit, Model::Cube__16_
+	C: "OO",2597152917456,2589150743120
+	
+	;Geometry::Scene, Model::Cube__16_
+	C: "OO",2589147092608,2589150743120
+	
+	;Material::Lit, Model::Cube__17_
+	C: "OO",2597152917456,2589150725120
+	
+	;Geometry::Scene, Model::Cube__17_
+	C: "OO",2589148279728,2589150725120
+	
+	;Material::Lit, Model::Cube__18_
+	C: "OO",2597152917456,2589150757120
+	
+	;Geometry::Scene, Model::Cube__18_
+	C: "OO",2589148281072,2589150757120
+	
+	;Material::Lit, Model::Cube__19_
+	C: "OO",2597152917456,2589150753120
+	
+	;Geometry::Scene, Model::Cube__19_
+	C: "OO",2589148275696,2589150753120
+	
+	;Material::Lit, Model::Cube__20_
+	C: "OO",2597152917456,2589150727120
+	
+	;Geometry::Scene, Model::Cube__20_
+	C: "OO",2589148277040,2589150727120
+	
+	;Material::Lit, Model::Cube__21_
+	C: "OO",2597152917456,2589150759120
+	
+	;Geometry::Scene, Model::Cube__21_
+	C: "OO",2589148276144,2589150759120
+	
+	;Material::Lit, Model::Cylinder
+	C: "OO",2597152917456,2589150729120
+	
+	;Geometry::Scene, Model::Cylinder
+	C: "OO",2589148277936,2589150729120
+	
+	;Material::Lit, Model::Cube__22_
+	C: "OO",2597152917456,2589150773120
+	
+	;Geometry::Scene, Model::Cube__22_
+	C: "OO",2589148278384,2589150773120
+	
+	;Material::Lit, Model::Cube__23_
+	C: "OO",2597152917456,2589150771120
+	
+	;Geometry::Scene, Model::Cube__23_
+	C: "OO",2589148276592,2589150771120
+	
+	;Material::Lit, Model::Cube__24_
+	C: "OO",2597152917456,2589150767120
+	
+	;Geometry::Scene, Model::Cube__24_
+	C: "OO",2589148278832,2589150767120
+	
+	;Material::Lit, Model::Cube__25_
+	C: "OO",2597152917456,2589150789120
+	
+	;Geometry::Scene, Model::Cube__25_
+	C: "OO",2589148277488,2589150789120
+	
+	;Material::Lit, Model::Cube__26_
+	C: "OO",2597152917456,2589150775120
+	
+	;Geometry::Scene, Model::Cube__26_
+	C: "OO",2589148274800,2589150775120
+	
+	;Material::Lit, Model::Cube__27_
+	C: "OO",2597152917456,2589150777120
+	
+	;Geometry::Scene, Model::Cube__27_
+	C: "OO",2589148280176,2589150777120
+	
+	;Material::Lit, Model::Cube__28_
+	C: "OO",2597152917456,2589150781120
+	
+	;Geometry::Scene, Model::Cube__28_
+	C: "OO",2589148279280,2589150781120
+	
+	;Material::Lit, Model::Cube_1
+	C: "OO",2597152917456,2589150783120
+	
+	;Geometry::Scene, Model::Cube_1
+	C: "OO",2589148280624,2589150783120
+	
+	;Material::Lit, Model::Cube__1__1
+	C: "OO",2597152917456,2589150785120
+	
+	;Geometry::Scene, Model::Cube__1__1
+	C: "OO",2589148281520,2589150785120
+	
+	;Material::Lit, Model::Cube__2__1
+	C: "OO",2597152917456,2589150763120
+	
+	;Geometry::Scene, Model::Cube__2__1
+	C: "OO",2589148281968,2589150763120
+	
+	;Material::Lit, Model::Cube__3__1
+	C: "OO",2597152917456,2589150787120
+	
+	;Geometry::Scene, Model::Cube__3__1
+	C: "OO",2589148275248,2589150787120
+	
+	;Material::Lit, Model::Cube__4__1
+	C: "OO",2597152917456,2589150761120
+	
+	;Geometry::Scene, Model::Cube__4__1
+	C: "OO",2589148282416,2589150761120
+	
+	;Material::Lit, Model::Cube__5__1
+	C: "OO",2597152917456,2589150793120
+	
+	;Geometry::Scene, Model::Cube__5__1
+	C: "OO",2602735664000,2589150793120
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+}
