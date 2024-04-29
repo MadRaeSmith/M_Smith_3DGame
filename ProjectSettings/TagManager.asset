@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Powerup
   - Enemy
+  - Vent
+  - Goal
+  - Orb
   layers:
   - Default
   - TransparentFX

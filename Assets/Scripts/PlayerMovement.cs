@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 //using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
@@ -11,13 +12,18 @@ public class PlayerMovement : MonoBehaviour
     public bool isPoweredUp;
     public float powerBounceStrength;
     public float powerupTime = 7f;
+    //public int KeyNumber;
+    [SerializeField] GameObject Ball;
+    [SerializeField] GameObject Dead;
+    [SerializeField] GameObject Tele;
+
 
     [SerializeField] private float jumpForce;
     [SerializeField] private float speed;
     [SerializeField] private float gravity;
     [SerializeField] private float jumpHeight;
     Vector3 velovity;
-
+   
     //PlayerInput playerInput;
     //InputAction moveAction;
     //InputAction jumpAction;
@@ -37,11 +43,12 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         playerRb = GetComponent<Rigidbody>();
+        Dead.SetActive(false);
 
         //playerInput = GetComponent<PlayerInput>();
 
         //playerInputActions = new PlayerInputActions();
-       // playerInputActions.Movement.Enable();
+        // playerInputActions.Movement.Enable();
         //playerInputActions.Movement.Jump.performed += Jump;
     }
 
@@ -58,7 +65,12 @@ public class PlayerMovement : MonoBehaviour
             Jump();
         }
 
-        void Grow()
+    }
+
+    public void Grow()
+    {
+
+        if (currentSize < maxSize)
         {
 
             if (currentSize < maxSize)
@@ -68,17 +80,28 @@ public class PlayerMovement : MonoBehaviour
                 transform.localScale = new Vector3(currentSize, currentSize, currentSize);
             }
         }
-
-        void Shrink()
+    }
+       public void Shrink()
         {
 
-            if (currentSize > minSize)
-            {
-                currentSize--;
-                raycastLength = raycastLength - 0.6f;
-                transform.localScale = new Vector3(currentSize, currentSize, currentSize);
-            }
-            //Both of these had an Issue with the word public???
+         if (currentSize >= minSize)
+         {
+            currentSize--;
+            raycastLength = raycastLength - 0.6f;
+            transform.localScale = new Vector3(currentSize, currentSize, currentSize);
+            CheckAlive();
+         }
+             
+        }
+    
+
+    public void CheckAlive()
+    {
+        if (currentSize < minSize)
+        {
+            Ball.SetActive(false);
+            Dead.SetActive(true);
+
         }
     }
 
@@ -89,11 +112,11 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
-        if(movement.magnitude > 0.1)
+        if (movement.magnitude > 0.1)
         {
             float targetAngle = Mathf.Atan2(movement.x, movement.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
 
-            Vector3 moveDir = Quaternion.Euler(0f,targetAngle,0f) * Vector3.forward;
+            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             playerRb.AddForce(moveDir * speed * Time.deltaTime);
         }
 
@@ -102,13 +125,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        if(isGrounded() == true)
+        if (isGrounded() == true)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
     }
-
-    private void OnTriggerEnter(Collider other)
+   
+    private void OnTriggerEnter(Collider other) 
     {
         if (other.CompareTag("Powerup"))
         {
@@ -120,11 +143,22 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("Orb"))
         {
             Destroy(other.gameObject);
-            //Grow();
+            Grow();
         }
 
+        if (other.CompareTag("Vent"))
+        {
+
+            transform.position = Tele.transform.position;
+        }       
+
+        if (other.CompareTag("Goal"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 
+    
     IEnumerator PowerupCountDownRouutine()
     {
         yield return new WaitForSeconds(powerupTime);
@@ -133,12 +167,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag("Enemy") && isPoweredUp == true)
+        if (collision.gameObject.CompareTag("Enemy"))
         {
-            Rigidbody enemyRb = collision.gameObject.GetComponent<Rigidbody>();
-
-            Vector3 bounceDir = (collision.gameObject.transform.position - transform.position);
-            enemyRb.AddForce(bounceDir * powerBounceStrength, ForceMode.Impulse);
+            Debug.Log("Ouch and enemy");
+          Shrink();
         }
+       // if(collision.gameObject.CompareTag("Enemy") && isPoweredUp == true)
+       // {
+           // Rigidbody enemyRb = collision.gameObject.GetComponent<Rigidbody>();
+
+            //Vector3 bounceDir = (collision.gameObject.transform.position - transform.position);
+            //enemyRb.AddForce(bounceDir * powerBounceStrength, ForceMode.Impulse);
+       // }
     }
 }

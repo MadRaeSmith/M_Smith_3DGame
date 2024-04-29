@@ -5,32 +5,32 @@ using UnityEngine;
 public class EnemyPatrol : MonoBehaviour
 {
     public float speed;
-    public List<Transform> waypoints;
-    private int waypointIndex;
-    private float range;
+    public Transform[] patrolPoints;
+    public int targetPoint;
+    //public List<Transform> waypoints;
+    //private int waypointIndex;
+    //private float range;
 
-    private void Start()
+    void Start()
     {
-        waypointIndex = 0;
-        range = 1f;
+        targetPoint = 0;
     }
 
     void Update()
     {
-        Move();
-    }
-    public void Move()
-    {
-        transform.LookAt(waypoints[waypointIndex]);
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
-
-        if (Vector3.Distance(transform.position, waypoints[waypointIndex].position) > range)
+        if (transform.position == patrolPoints[targetPoint].position)
         {
-            waypointIndex++;
-            if (waypointIndex >= waypoints.Count)
-            {
-                waypointIndex = 0;
-            }
+            increaseTargetInt();
+        }
+        transform.position = Vector3.MoveTowards(transform.position, patrolPoints[targetPoint].position, speed * Time.deltaTime);
+    }
+
+    void increaseTargetInt() 
+    {
+        targetPoint++;
+        if (targetPoint >= patrolPoints.Length)
+        {
+            targetPoint = 0;
         }
     }
 
