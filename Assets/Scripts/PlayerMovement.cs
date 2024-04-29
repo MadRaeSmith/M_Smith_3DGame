@@ -58,27 +58,26 @@ public class PlayerMovement : MonoBehaviour
             Jump();
         }
 
-        void Grow()
-        {
+    }
+    public void Grow()
+    {
 
-            if (currentSize < maxSize)
-            {
-                currentSize++;
-                raycastLength = raycastLength + 0.6f;
-                transform.localScale = new Vector3(currentSize, currentSize, currentSize);
-            }
+        if (currentSize < maxSize)
+        {
+            currentSize++;
+            raycastLength = raycastLength + 0.6f;
+            transform.localScale = new Vector3(currentSize, currentSize, currentSize);
         }
+    }
 
-        void Shrink()
+    public void Shrink()
+    {
+
+        if (currentSize > minSize)
         {
-
-            if (currentSize > minSize)
-            {
-                currentSize--;
-                raycastLength = raycastLength - 0.6f;
-                transform.localScale = new Vector3(currentSize, currentSize, currentSize);
-            }
-            //Both of these had an Issue with the word public???
+            currentSize--;
+            raycastLength = raycastLength - 0.6f;
+            transform.localScale = new Vector3(currentSize, currentSize, currentSize);
         }
     }
 
@@ -117,10 +116,10 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(PowerupCountDownRouutine());
         }
 
-        if (other.CompareTag("Orb"))
+        if (other.CompareTag("Yarn"))
         {
             Destroy(other.gameObject);
-            //Grow();
+            Grow();
         }
 
     }
